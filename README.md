@@ -1,4 +1,4 @@
-# Visual Data Structures (visual-code-studio)
+# visual-data-structure# Visual Data Structures (visual-code-studio)
 
 visual-code-studio is a Data Structure Playground that you can use as a simulator to visualize various Data Structures and Algorithms. These include Linked lists, list ADTs (Stack, queue), Sorting Algorithms, Binary Search Trees, AVL trees, B+ trees,Algorithms, and Hashing Algorithms.
 
