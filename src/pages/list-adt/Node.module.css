@@ -1,0 +1,21 @@
+.node_container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+.node {
+  width: 6rem;
+  display: grid;
+  background-color: #e27171;
+  color: #000;
+  border-radius: 3.5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.node:hover{
+  scale: 1.2;
+}

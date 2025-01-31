@@ -1,0 +1,101 @@
+.DroppableArea {
+    position: relative;
+    width: 95%;
+    height: 32rem;
+    margin-right: 30px;
+}
+
+.legend-button{
+  transition: all ease-in-out 0.1s;
+}
+
+.legend-button:hover{
+  transform: scale(1.3);
+}
+
+.undo-button{
+  transition: all ease-in-out 0.1s;
+}
+.undo-button:hover{
+  transform: scale(1.3);
+}
+
+.starting-node{
+    fill: rgb(145, 105, 53);
+}
+
+.rowss{
+    background-color: rgb(115, 115, 115);
+}
+.canvas {
+    width: 100%;
+    height: 35rem;
+    box-shadow: 0 0 10px rgba(70, 70, 70, 0.4);
+    border-radius: 9px;
+  }
+  
+
+.DraggableNode {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: black solid 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+}
+
+.DraggableNode:hover{
+  transform: scale(1.1);
+}
+
+
+
+.DraggableNode span {
+    color: black;
+    font-weight: bold;
+}
+
+.left-arrow {
+    position: fixed;
+    top: 375px;
+    left: 17.5rem;
+}
+
+.right-arrow {
+    position: fixed;
+    top: 375px;
+    right: 17.5rem;
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.button-container button {
+  align-items: center;
+  justify-content: center;
+  background-color: #4a4c4d;
+  color: #ffffff; 
+  border: none;
+  border-radius: 9px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:disabled {
+  background-color: #a3a3a3;
+  cursor: not-allowed;
+}
+
+.button-container button:hover:not(:disabled) {
+  background-color: #676767;
+}
+
