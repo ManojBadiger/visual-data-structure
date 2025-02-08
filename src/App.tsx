@@ -73,16 +73,20 @@ function App() {
     if (!isfullscreen) {
       if (elem.requestFullscreen) {
         elem.requestFullscreen();
+      // eslint-disable-next-line no-dupe-else-if
       } else if (elem.requestFullscreen) {
         elem.requestFullscreen();
+      // eslint-disable-next-line no-dupe-else-if
       } else if (elem.requestFullscreen) {
         elem.requestFullscreen();
       }
     } else {
       if (document.exitFullscreen) {
         document.exitFullscreen();
+      // eslint-disable-next-line no-dupe-else-if
       } else if (document.exitFullscreen) {
         document.exitFullscreen();
+      // eslint-disable-next-line no-dupe-else-if
       } else if (document.exitFullscreen) {
         document.exitFullscreen();
       }
