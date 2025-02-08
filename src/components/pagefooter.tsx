@@ -72,21 +72,6 @@ const PageFooter: React.FC<PageFooterProps> = ({}) => {
           <div></div>
         )}
       </motion.footer> */}
-
-      <footer
-        id="sticky-footer"
-        className="bg-dark text-white-50"
-        style={{
-          position: "fixed",
-          bottom: 0,
-          width: "100vw",
-          height: "50px",
-        }}
-      >
-        <div className="z-index-100 py-3 container text-center d-flex justify-content-center">
-  
-        </div>
-      </footer>
     </>
   );
 };
